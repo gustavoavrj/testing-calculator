@@ -50,4 +50,16 @@ describe('addition unit tests', () => {
     // Assert
     expect(result).toBe(2.7);
   })
+  it('Should add 0.0 + 0.0 = 0.0', () => {
+    // Pattern AAA (Arrange - Act - Assert)
+
+    // Arrange
+    let result = 0;
+    
+    // Act
+    result = addition(0.0, 0.0);
+
+    // Assert
+    expect(result).toBe(0.0);
+  })
 })
